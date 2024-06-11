@@ -1,0 +1,221 @@
+
+.blogs-container {
+  padding: 130px 10% 100px 10%;
+  z-index: -1;
+  background-color: #141728;
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:45px;
+  align-items: center;
+  text-align: center;
+}
+
+.search-filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+  gap:3%;
+  width: 100%;
+  color:#f0f0f0;
+}
+
+.search-filter-container input[type="text"],
+.search-filter-container select {
+  font-size: 15px; 
+  width: fit-content;
+  color:#f0f0f0;
+  border: none;
+  padding: 12px;
+  background-color: #141728;
+  border-radius: 12px;
+  box-shadow: inset 6px 6px 10px #0e101c, inset -6px -6px 10px #1a1e34;
+}
+.search-filter-container input[type="text"] {
+  font-size: 15px; 
+  padding: 12px; 
+  width: fit-content;
+  width:40%;
+  margin-right: 38%;
+  
+}
+
+.search-filter-container svg {
+  font-size: 19px; 
+  max-width:fit-content;
+}
+.search-filter-container button {
+  font-size: 15px;
+  width: 30%;
+  padding:12.5px;
+  outline: none;
+}
+
+@media screen and (max-width:1150px){
+  .search-filter-container svg {
+    font-size: 18px; 
+  }
+  .search-filter-container button {
+    font-size: 14px;
+    width: 33%;
+  }
+}
+
+@media screen and (max-width:1055px){
+  .search-filter-container button {
+    font-size: 14px;
+    width: 30%;
+  }
+  .search-filter-container input[type="text"] {
+    font-size: 14px; 
+    padding: 12px; 
+    width:50%;
+    margin-right: 20%;
+  }
+  .search-filter-container select {
+    font-size: 14px; 
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width:900px){
+  .search-filter-container svg {
+    font-size: 17px; 
+  }
+  .search-filter-container button {
+    font-size: 13px;
+    width: 35%;
+  }
+  .search-filter-container input[type="text"] {
+    font-size: 13px; 
+    width:50%;
+    margin-right: 17%;
+  }
+  .search-filter-container select {
+    font-size: 13px; 
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width:837px){
+  .blogs-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blogs-container {
+    padding: 120px 17% 30px 17%;
+  }
+  .search-filter-container {
+    gap:5%;
+  }
+  .search-filter-container button {
+    font-size: 13px;
+    width: 35%;
+    padding:11.5px;
+  }
+  .search-filter-container input[type="text"] {
+    font-size: 13px; 
+    width:40%;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:730px){
+  .search-filter-container button {
+    font-size: 0;
+  }
+  .search-filter-container button svg {
+    font-size: 18px; 
+  }
+  .search-filter-container button {
+    width: 20%;
+    padding:12px;
+  }
+  .search-filter-container input[type="text"] {
+    font-size: 13px; 
+    width:83%;
+    margin-right: 0;
+    margin-right: 5%;
+  }
+    .search-filter-container select {
+      width:40%;
+      font-size: 12px;
+  }
+}
+@media screen and (max-width:610px){
+  .blogs-container {
+    padding: 120px 14% 30px 14%;
+  }
+}
+@media screen and (max-width:530px){
+  .search-filter-container input[type="text"] {
+    font-size: 12px; 
+    padding: 9px;
+  }
+  .search-filter-container select {
+    font-size: 11.5px;
+    padding:9px;
+}
+.search-filter-container button svg {
+  font-size: 17px; 
+}
+.search-filter-container button {
+  width: 20%;
+  padding:9px;
+}
+}
+@media screen and (max-width:490px){
+  .search-filter-container input[type="text"] {
+    font-size: 11px; 
+  }
+  .search-filter-container select {
+    font-size: 11px;
+    padding:9px;
+    width:21%;
+}
+.search-filter-container button svg {
+  font-size: 16px; 
+}
+}
+
+@media screen and (max-width:467px){
+  .search-filter-container select {
+    width:22%;
+}
+}
+@media screen and (max-width:450px){
+  .search-filter-container select {
+    width:23%;
+}
+}
+@media screen and (max-width:437px){
+  .search-filter-container select {
+    width:24%;
+}
+}
+@media screen and (max-width:420px){
+  .search-filter-container select {
+    width:25.5%;
+}
+}
+@media screen and (max-width:400px){
+  .search-filter-container select {
+    width:26.5%;
+}
+}
+@media screen and (max-width:390px){
+  .search-filter-container select {
+    width:28%;
+}
+}
+@media screen and (max-width:370px){
+  .search-filter-container select {
+    width:29.5%;
+}
+}
+@media screen and (max-width:360px){
+  .search-filter-container select {
+    width:32%;
+}
+}

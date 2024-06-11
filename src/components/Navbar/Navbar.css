@@ -1,0 +1,141 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2.3rem; 
+    background-color: transparent;
+    color: #fff;
+    z-index: 111;
+    font-size: 1.05rem;
+  }
+  
+  .menu-icon svg{
+    color: #fff;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0; 
+    width: 10%;
+    cursor: pointer;
+  }
+  .menu-icon svg:hover{
+    color:#ffb4ed;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+    align-items: center;
+    gap: 50px;
+  }
+ .nav-button{
+  padding: 17px;
+  text-transform: none;
+  margin-left:-16px;
+  width: fit-content;
+ }
+ .nav-button:hover{
+  color:#ffb4ed;
+ }
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav-links li a:hover {
+    color:#ffb4ed;
+  }
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+
+  @media screen and (max-width:810px){
+  .nav-links {
+    width: 38%;
+  }
+  }
+
+  @media screen and (max-width:745px){
+    .nav-links {
+      width: 41%;
+    }
+    .navbar {
+      padding: 1rem 2.3rem; 
+    }
+  }
+
+  @media screen and (max-width:690px){
+    .nav-links {
+      width: 44%;
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width:630px){
+    .nav-links {
+      width: 46%;
+      margin-right:11px;
+    }
+  }
+
+  @media screen and (max-width:550px){
+    .nav-links {
+      width: 51%;
+      font-size: 0.9rem;
+      margin-right:16px;
+    }
+    .navbar {
+      padding: 0.8rem 2.3rem; 
+    }
+  }
+  @media screen and (max-width:490px){
+    .nav-links {
+      width: 55%;
+      font-size: 0.9rem;
+      margin-right:25px;
+    }
+    .menu-icon svg{
+      font-size: 1.7rem;
+      width: 12%;
+    }
+  }
+  @media screen and (max-width:444px){
+    .nav-links {
+      width: 50%;
+      margin-right:30px;
+      gap:37px;
+    }
+    .menu-icon svg{
+      width: 13%;
+    }
+  }
+
+  @media screen and (max-width:410px){
+    .nav-links {
+      width: 53%;
+      margin-right:33px;
+      gap:37px;
+    }
+    .menu-icon svg{
+      width: 14%;
+    }
+  }
+  @media screen and (max-width:388px){
+    .nav-links {
+      width: 100%;
+      margin-right:27px;
+      margin-left:25px;
+    }
+    .menu-icon svg{
+      display: none;
+    }
+  }
+  
+
+  

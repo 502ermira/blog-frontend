@@ -1,0 +1,65 @@
+.circles {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px; 
+    padding-top: 25px;
+  }
+  
+  .circle {
+    width: 18px;
+    height: 18px;
+    margin: 0 5px; 
+    cursor: pointer;
+    background-color: #141728;
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 6px 6px 10px #0e101c, inset -6px -6px 10px #1a1e34;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .circle.active {
+    background-color: #ffb4ed;
+    box-shadow: 2px 2px 5px rgba(255, 137, 213, 0.6), -2px -2px 5px rgba(255, 217, 255, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width:1200px) {
+    .circles {
+      margin-bottom: 30px; 
+      padding-top: 30px;
+      margin-left: -60px;
+    }
+  }
+  
+  @media screen and (max-width:1050px) {
+    .circles {
+      margin-bottom: 30px; 
+      padding-top: 0px;
+      margin-left: -60px;
+    }
+  }
+  
+  @media screen and (max-width:960px) {
+    .circles {
+      margin-bottom: 33px; 
+      padding-top: 15px;
+      margin-left: 0px;
+    }
+  }
+  
+  @media screen and (max-width:460px) {
+    .circles {
+      margin-bottom: 33px; 
+      padding-top: 50px;
+    }
+  
+    .circle {
+      width: 17px;
+      height: 17px;
+      margin: 0 5px; 
+    }
+  }
+  

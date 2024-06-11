@@ -1,0 +1,32 @@
+.footer {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #141728;
+    box-shadow: 6px 6px 10px #0e101c, -6px -6px 10px #1a1e34;
+  }
+  
+  .footer-content {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width:1050px){
+    .footer-content {
+      font-size: 15.5px;
+    }
+  }
+
+  @media screen and (max-width:600px){
+    .footer-content {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width:460px){
+    .footer-content {
+      font-size: 13px;
+    }
+  }
+  
