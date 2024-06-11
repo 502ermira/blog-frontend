@@ -10,7 +10,7 @@ To get started with this project, follow these steps:
 
     ```sh
     git clone https://github.com/502ermira/blog-frontend.git
-    cd techblog
+    cd blog-frontend
     ```
 
 2. Install the dependencies:
