@@ -40,6 +40,7 @@ VITE_API_BLOG_DETAIL_URL=https://your-backend-url.com/api/blogs
 VITE_API_REVIEWS_URL=https://your-backend-url.com/api/reviews
 VITE_API_NEWSLETTER_URL=https://your-backend-url.com/api/subscribe
 VITE_GOOGLE_CLIENT_ID=your-google-client-id
+```
 
 Replace the placeholders with your actual URLs and Google client ID.
 
