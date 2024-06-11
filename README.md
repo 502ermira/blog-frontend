@@ -49,4 +49,9 @@ Replace the placeholders with your actual URLs and Google client ID.
 - Make sure to replace the placeholders in the `.env` file with your actual URLs and client ID.
 - Restart the development server after creating or updating the `.env` file to apply the changes.
 
+## Backend
+
+The backend for this project is available in a separate repository. You can find it [here](https://github.com/502ermira/blog-backend).
+
+
 By following these instructions, you should be able to set up and run your personal tech blog locally. If you encounter any issues, please refer to the documentation or raise an issue in the repository.
